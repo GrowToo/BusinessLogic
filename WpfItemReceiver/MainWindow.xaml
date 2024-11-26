@@ -1,0 +1,9 @@
+﻿<Window x:Class="YourProjectName.UI.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Main" Height="450" Width="800">
+    <Grid>
+        <Button Content="Manage Products" IsEnabled="{Binding CanManageProducts}" />
+        <Button Content="View Reports" IsEnabled="{Binding CanViewReports}" />
+    </Grid>
+</Window>
